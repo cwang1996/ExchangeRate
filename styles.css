@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 
 body {
     background-color: #111;
+    font-family: 'Poppins';
 }
 
 .container {
@@ -20,40 +23,48 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     background-color: lightblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #fff;
 }
 
 .heading {
     text-align: center;
 }
 
+.heading p {
+    font-size: 16px;
+}
+
 #amount-one, #amount-two {
     float: right;
     border: none;
     font-size: 20px;
-    width: 10%;
+    width: 20%;
     background-color: lightblue;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 .rate {
     float: right;
-    margin-right: 60px;
+    margin-right: 30px;
     margin-top: 10px;
 }
 
 .swap {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .swap button {
     padding: 10px 15px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: none;
+    border-radius: 4px;
     background-color: #fff;
     cursor: pointer;
 }
 
 .currency-one, .currency-two {
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
